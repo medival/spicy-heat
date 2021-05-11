@@ -1,7 +1,7 @@
 {
-  "name": "restaurant-apps",
+  "name": "spicy-heat",
   "version": "1.0.0",
-  "description": "",
+  "description": "Submission-1-Front-End-Expert-Dicoding",
   "main": "index.js",
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js",
@@ -9,7 +9,7 @@
     "test": "karma start"
   },
   "keywords": [],
-  "author": "your_name <your.email@domain.com>",
+  "author": "adi purnomo <dev.adipurnomo@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -36,5 +36,13 @@
   },
   "dependencies": {
     "regenerator-runtime": "^0.13.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medival/spicy-heat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/medival/spicy-heat/issues"
+  },
+  "homepage": "https://github.com/medival/spicy-heat#readme"
 }
