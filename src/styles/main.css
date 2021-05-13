@@ -11,6 +11,10 @@ html {
 .wrapper {
     width: 100%;
     box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+    background-color: #F2F7FF;
+    position: fixed;
+    z-index: 1;
+    justify-content: center;
 }
 
 body {
@@ -39,7 +43,7 @@ nav {
     padding: 10px 25px;
     text-decoration: none;
     color: #283C68;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #F2F7FF;
 }
 
 .nav-item a:hover {
@@ -48,9 +52,6 @@ nav {
     color: #000
 }
 
-/* .nav-item:hover {
-    background-color: white;
-} */
 
 .nav-item:hover a {
     color: #000;
@@ -105,20 +106,17 @@ nav {
 
 .catalouge {
     width: 80%;
-    /* background-color: yellow; */
     display: flex;
     justify-content: center;
 }
 
 .restaurant {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr;
-    /* grid-template-columns: repeat(auto-fit, minmax(400px, 600px)); */
-    /* background-color: red; */
+
+    /* Responisve */
+    /* grid-template-columns: minmax(1fr 1fr); */
 }
 
 
@@ -177,19 +175,28 @@ nav {
 
 /* Footer  */
 footer {
-    /* height: 10vh; */
-    padding-bottom: 5em;
+    margin-top: 2em;
+    background-color: #F2F7FF
 }
 .footer-content {
-    width: 50vw;
-    margin: 0 auto;
-    padding-top: 5em;
+    width: 100vw;
+    /* margin: 0 auto; */
+    padding-top: 1.5em;
+    /* background-color: red; */
+    /* position: fixed; */
+    margin: 0;
 }
 .footer-content h4 {
     display: flex;
     justify-content: center;
     color: #343352;
-    padding: 1em 0 2em 0;
+}
+.footer-content h4:first-child {
+    padding: 1em 0;
+}
+
+.footer-content h4:last-child {
+    /* padding-bottom: em; */
 }
 
 .footer-social-media {
@@ -200,7 +207,7 @@ footer {
 .footer-social-media a {
     text-align: center;
     padding: 1em;
-    margin: 0 0.5em;
+    margin: 1.5em 0.5em 0 0;
     width: 4em;
     color: black;
     border-radius: 0.1em;
