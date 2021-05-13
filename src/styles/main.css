@@ -18,7 +18,8 @@ html {
 }
 
 body {
-     font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
 }
 
 nav {
@@ -40,7 +41,7 @@ nav {
 
 .nav-item a {
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 25px 10px 10px;
     text-decoration: none;
     color: #283C68;
     border-bottom: 2px solid #F2F7FF;
@@ -64,6 +65,7 @@ nav {
 
 .hero {
     min-height: 60vh;
+    width: 100vw;
     background-image: url('/images/heros/hero-image_2.jpg');
     background-position: center;
     background-size: cover;
@@ -160,9 +162,6 @@ nav {
     justify-content: center;
 }
 
-.card-optional {
-    /* margin: 0.5em 0 0.4em 0; */
-}
 
 .card-description h3 {
     color: #343352;
@@ -176,7 +175,8 @@ nav {
 /* Footer  */
 footer {
     margin-top: 2em;
-    background-color: #F2F7FF
+    background-color: #F2F7FF;
+    width: 100vw;
 }
 .footer-content {
     width: 100vw;
@@ -193,10 +193,6 @@ footer {
 }
 .footer-content h4:first-child {
     padding: 1em 0;
-}
-
-.footer-content h4:last-child {
-    /* padding-bottom: em; */
 }
 
 .footer-social-media {
