@@ -14,7 +14,9 @@ data.restaurants.forEach(item => {
 		<img class="thumbnail" src="${item.pictureId}" alt="${item.name}">
 	</div>
 	<div class="card-description">
-		<h4 class="card-optional"> ${item.city} • ${item.rating} </h4>
+		<h4 class="card-optional">
+			${item.city} • ${item.rating}
+		</h4>
 		<h3 class="card-title"> ${item.name} </h3>
 		<p> ${item.description.substring(0, 150)} </p>
 	</div>
