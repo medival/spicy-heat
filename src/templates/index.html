@@ -2,68 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web that provide list of cafe and restaurant" />
+    <meta name="keywords" content="Spicy Heat" />
+    <meta name="theme-color" content="#db2a2a" />
     <title> Spicy Heat </title>
+    <link href="http://fonts.cdnfonts.com/css/neue-helvetica" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/garamond" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Pro:wght@500&family=Roboto&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
 </head>
 <body>
-<div class="wrapper">
-    <nav class="navbar" id="drawer">
-        <a href="#" class="logo">
-            <img src="/images/logo/logo.png" alt="spicy-heat-logo logo">
-        </a>
-        </a>
-        <ul class="nav-links">
-            <li class="nav-item">
-                <a href="index.html"> HOME </a>
-            </li>
-            <li class="nav-item">
-                <a href="#"> FAVORITE </a>
-            </li>
-            <li class="nav-item">
-                <a href="https://github.com/medival/"> ABOUT US </a>
-            </li>
-        </ul>
-    </nav>
-</div>
-<section class="hero">
-    <h1 class="hero-title">
-        Welcome <br> To Spicy Heat
-    </h1>
-</section>
-<section class="content">
-    <div class="content-header">
-        <h2 class="catalouge-label"> Discover Restaurant & Delicious Food </h2>
-    </div>
-    <div class="content-body">
-        <div class="catalouge">
-            <catalouge-item>
-            </catalouge-item>
-            </div>
-            </div>
-</section>
-<footer>
-    <div class="footer-content">
-        <h4> Crafted by me to everyone with spirit! </h4>
-        <h4> Copyright &copy; 2021 - Spicy Heat </h4>
-        <div class="footer-social-media">
-            <a href="https://twitter.com/lemillionee" class="social-icons social-icons-twitter">
-                <i class="fa fa-lg fa-twitter"></i>
-            </a>
-            <a href="https://linkedin.com/adi-purnomo" class="social-icons social-icons-linkedin">
-                <i class="fa fa-lg fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/medival" class="social-icons social-icons-github">
-                <i class="fa fa-lg fa-github"></i>
-            </a>
+    <a href="#main" class="skip-to-content"> Skip to Content <i class="fa fa-angle-double-right"></i> </a>
+    <header>
+        <div class="nav__wrapper">
+            <nav class="navbar">
+                <span id="navbar-toggle" id="hamburger">
+                    <i class="fa fa-lg fa-bars"></i>
+                </span>
+                <a href="#" id="logo">
+                    <img class="navbar__logo" src="images/logo/logo.png" alt="logo-spicy-heat" srcset="">
+                </a>
+                <ul id="main-nav">
+                    <li>
+                        <a href="#" class="nav-links nav-links-active">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-links">FAVORITE</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/medival/" target="_blank" class="nav-links">ABOUT US</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+        <main id="main-content">
+            <section class="hero">
+                <h1 class="hero__title"> Welcome <br> to Spicy Heat </h1>
+                    <img class="hero__image" src="images/heros/hero-image_2.jpg" alt="Hero Image">
+                <a href="#main" class="hero__cta"> Discover </a>
+            </section>
+
+            <section class="resto" id="main">
+                <div class="resto__container">
+                    <h2 class="resto__label"> Explore Restaurant & Explore Food </h2>
+                    <resto></resto>
+                </div>
+            </section>
+        </main>
+    <footer>
+        <div class="footer__content">
+            <p> Crafted by me to everyone with spirit!</p>
+            <p class="footer__copyright"> Copyright &copy; 2021 - Spicy Heat </p>
+            <div class="footer__social-media-icons">
+                <a href="#" class="social-icons social-icon-twitter">
+                    <i class="fa fa-lg fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icons social-icon-linkedin">
+                    <i class="fa fa-lg fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/medival"  target="_blank" class="social-icons social-icon-github">
+                    <i class="fa fa-lg fa-github"></i>
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
-

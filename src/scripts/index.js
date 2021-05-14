@@ -1,26 +1,31 @@
 import 'regenerator-runtime'; /* for async await transpile */
 import '../styles/main.css';
+import restoList from '../DATA';
 
-import data from '../DATA.json';
-
-const restoElement = document.querySelector('catalouge-item');
-restoElement.setAttribute("class", "restaurant");
-data.restaurants.forEach(item => {
-	// let description = item.description.splice(0, 20);
-	const card = document.createElement("card");
-	card.setAttribute("class", "card");
-	card.innerHTML = `
-	<div class="card-thumbnail">
-		<img class="thumbnail" src="${item.pictureId}" alt="${item.name}">
-	</div>
-	<div class="card-description">
-		<h4 class="card-optional">
-			${item.city} • ${item.rating}
-		</h4>
-		<h3 class="card-title"> ${item.name} </h3>
-		<p> ${item.description.substring(0, 150)} </p>
-	</div>
+console.log('Hello Coders! :)');
+let mainNav=document.getElementById('main-nav');
+let navbarToggle=document.getElementById('navbar-toggle');
+let restoElement = document.querySelector('resto');
+restoElement.setAttribute('class', 'resto__list');
+restoList.restaurants.forEach(resto => {
+	const restoFigure = document.createElement('figure');
+	restoFigure.innerHTML = `
+        <img src="${resto.pictureId}" alt="${resto.name}">
+        <h4 class="resto__info"> ${resto.city} • ${resto.rating} </h4>
+        <h4 class="resto__about"> About </h4>
+        <h1 class="resto__title"> ${resto.name} </h1>
+        <p class="resto__description"> ${resto.description.substring(0, 150)} </p>
 	`;
-	
-	restoElement.appendChild(card);
-})
+	restoElement.appendChild(restoFigure);
+});
+
+navbarToggle.addEventListener('click',function(){
+    if(this.classList.contains('active')){
+			mainNav.style.display = "none";
+        this.classList.remove('active');
+    }
+    else{
+        mainNav.style.display="flex";
+        this.classList.add('active');
+    }
+});
