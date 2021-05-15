@@ -91,7 +91,7 @@ margin-left: 20px;
   margin-top: 25px;
   right: 20px;
   cursor: pointer;
-  color: var(--grey-color);
+  color: var(--dark-color);
   font-size: 24px;
 }
   
@@ -247,8 +247,20 @@ footer {
   padding: 1em;
   margin: 1.5em 0.5em 0 0;
   width: 4em;
-  color: black;
   border-radius: 0.1em;
+  text-decoration: none;
+  }
+
+  .social-icon-twitter {
+    color: var(--twitter-color);
+  }
+
+  .social-icon-linkedin {
+    color: var(--linkedin-color);
+  }
+
+  .social-icon-github {
+    color: var(--github-color);
 }
 
 .social-icon-twitter:hover {
