@@ -1,3 +1,4 @@
+
 # Spicy Heat
 Fitur yang harus ada pada aplikasi:
 
@@ -33,3 +34,9 @@ Fitur yang harus ada pada aplikasi:
     -   Terdapat alternative teks pada seluruh gambar yang ditampilkan. Bila hanya gambar tidak memiliki arti apapun, cukup berikan atribut alt dengan nilai kosong.
     -   Ukuran elemen button/tautan harus memiliki ukuran minimal  _44x44px_.
     -   Menggunakan  _semantic element_  dalam menyusun struktur dan landmarking HTML.
+
+
+## Attribute
+- Chill Icon   <a href='https://pngtree.com/so/hand-painted'> pngtree </a>
+- Font Awesome
+- Google Font
