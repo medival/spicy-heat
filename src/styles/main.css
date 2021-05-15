@@ -141,6 +141,7 @@ margin-left: 20px;
   font-size: xx-large;
   text-shadow: 2px 2px var(--dark-color);
   text-align: center;
+  letter-spacing: .1em;
 }
 
 .hero__cta {
@@ -299,8 +300,7 @@ footer {
   display: flex !important;
   margin-right: 30px;
   flex-direction: row;
-  justify-content: flex-end;
-  background-color: var(--white-color);
+  justify-content: center;
   z-index: 3;
   padding: 0 5vw;
 }
