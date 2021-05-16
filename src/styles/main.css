@@ -98,6 +98,8 @@ ul#main-nav {
   font-size: 24px;
   width: 3em;
   height: 3em;
+  border: none;
+  background-color: transparent;
 }
   
 #navbar-toggle:hover {
