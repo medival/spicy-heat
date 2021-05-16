@@ -41,13 +41,14 @@ h6 {
   top: 0;
   width: 100%;
   z-index: 5;
-  height: 80px;
+  height: 100px;
 }
 
 #main-nav {
   list-style-type: none;
   display: none;
   flex-direction: column;
+  justify-content: center;
 }
   
 ul#main-nav {
@@ -63,13 +64,15 @@ ul#main-nav {
   text-decoration: none;
   color: var(--grey-color);
   border-bottom: 2px solid transparent;
-  padding: .5em 0.8em .5em 0.8em;
+  padding: .5em 1em;
+  width: 3em;
+  height: 3em;
 }
 
 .nav-links-active {
   border-bottom: 2px solid var(--primary-color);
   color: var(--dark-color);
-font-weight: bolder;
+  font-weight: bolder;
 }
 #logo:hover,
 .nav-links:hover {
@@ -77,22 +80,24 @@ font-weight: bolder;
 }
 
 .navbar__logo {
-  width: 8em;
+  width: 10em;
 }
 
 #logo {
   display: inline-block;
-margin-top: 1em;
-margin-left: 20px;
+  margin-top: 1em;
+  margin-left: 20px;
 }
 
 #navbar-toggle {
   position: absolute;
-  margin-top: 25px;
+  margin-top: 15px;
   right: 20px;
   cursor: pointer;
   color: var(--dark-color);
   font-size: 24px;
+  width: 3em;
+  height: 3em;
 }
   
 #navbar-toggle:hover {
@@ -289,11 +294,10 @@ footer {
   display: flex;
   justify-content: space-between;
   padding-bottom: 0;
-  height: 80px;
   width: 100%;
   align-items: center;
   z-index: 5;
-  padding: 0 5vw;
+  padding: 0 0 0 5vw;
 }
   
 #main-nav {
