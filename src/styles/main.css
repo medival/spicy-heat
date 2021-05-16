@@ -177,6 +177,10 @@ ul#main-nav {
   background-color: var(--white-color);
 }
 
+.resto__selector {
+  text-decoration: none;
+}
+
 .resto__label {
   text-align: center;
   margin-bottom: 1.5em;
@@ -357,7 +361,7 @@ figure img {
   width: 100%;
   height: 330px;
   object-fit: cover;
-}
+  }
 }
 
 @media only screen and (max-width: 600px) {
