@@ -118,7 +118,7 @@ ul#main-nav {
 .skip-to-content:focus {
   position: relative;
   transform: translateY(0);
-  top: 6rem;
+  top: 7rem;
 }
 
 .main-content {
