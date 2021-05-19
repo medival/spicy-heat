@@ -2,7 +2,7 @@
   --primary-color: #dc262a;
   --white-color: #fff;
   --dark-color: #1d1d1d;
-  --grey-color: grey;
+  --text-color: #0A121C;
   --twitter-color: #00aced;
   --linkedin-color: #0073a4;
   --github-color: #5a32a3;
@@ -36,7 +36,7 @@ h6 {
 .navbar {
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .2);
   background-color: var(--white-color);
-  color: var(--grey-color);
+  color: var(--text-color);
   font-size: 18px;
   position: fixed;
   top: 0;
@@ -62,7 +62,7 @@ ul#main-nav {
 
 .nav-links {
   text-decoration: none;
-  color: var(--grey-color);
+  color: var(--text-color);
   border-bottom: 2px solid transparent;
   padding: .5em 1em;
   width: 3em;
@@ -209,7 +209,7 @@ figure {
   padding: 0.2em 0 0 1.5em;
   color: var(--white-color);
   font-size: large;
-  text-shadow: 1px 1px var(--grey-color);
+  text-shadow: 1px 1px var(--text-color);
 }
 
 .resto__title {
@@ -223,7 +223,7 @@ figure {
 
 .resto__about,
 .resto__description {
-  color: #c2c2c2;
+  color: var(--text-color);
 }
 figure img {
   width: 100%;
@@ -244,7 +244,7 @@ footer {
   margin-top: 2em;
   padding: 2em 0;
   border-top: 1px solid #d9d9d9;
-  color: #c2c2c2;
+  color: var(--text-color);
 }
 
 .footer__content {
